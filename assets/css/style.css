@@ -1,0 +1,201 @@
+/* THE ENTIRE SITE */
+body {
+    background-color: #fbfbfb;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    background-color:black;
+    border-bottom-style: solid;
+    border-bottom-color: #FF5D5E;
+    border-bottom-width: 5px;
+    padding-top:10px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.jumbotron {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    font-family: 'Lexend Exa', sans-serif;
+    color: black;
+    margin-top: -4%; 
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+
+h1 {
+    font-family: 'Lexend Exa', sans-serif; 
+}
+
+.display-4 {
+    font-size: 45px;
+    line-height: 1.7em;
+    margin-bottom: 30px;
+}
+
+.fa-github,
+.fa-linkedin-in,
+.fa-file {
+    font-size: 30px;
+    color: black;
+}
+
+.fa-github:hover,
+.fa-linkedin-in:hover,
+.fa-file:hover {
+    color: #FF5D5E;
+}
+
+
+/* LOGO */
+#logo {
+    background-color:black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+#logo:hover{
+    color: #FF5D5E;
+
+}
+
+    /* NAV LINKS */
+    ul {
+        position: static;
+        list-style-type: none;
+    }
+
+    li {
+        float: right;
+    }
+
+    li a {
+        clear: both;
+        display: block;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+    } 
+
+    a:hover {
+        color: #f9f50b;
+        text-decoration: none;
+    }
+
+/* ---- ALL CONTENT --- ABOUT ME, IMAGE, BIO PARAGRAPH */
+ #about-me-container {
+    margin-bottom: 100px;
+ }
+
+        /* "ABOUT ME" */
+
+
+        /* BIO PICTURE */
+        #profile-image {
+            float: left;
+            margin-right: 30px;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        img {
+           
+            max-width: 100%;
+            max-height: 215px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightslategray;
+        }
+
+        /* PARAGPRAH CONTENT */
+        p {
+            
+            font-family: 'Source Sans Pro', sans-serif;
+            color: black;
+            line-height: 2.2em;
+            font-size: 16px;
+        }
+
+/* PORTFOLIO PAGE */
+.row {
+    margin-bottom: 20px;
+}
+
+#portfolio-wrapper {
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#psychic-link,
+#trivia-link,
+#cart-link,
+#crystal-link,
+#liri-link,
+#train-link,
+#bamazon-link,
+#gym {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+#psychic-link:hover,
+#trivia-link:hover,
+#cart-link:hover,
+#crystal-link:hover,
+#liri-link:hover,
+#train-link:hover,
+#bamazon-link:hover,
+#gym:hover {
+    color: #FF5D5E;
+}
+
+
+
+/* FOOTER */
+
+.row2 {
+    clear: both;
+    border-top-style: solid;
+    border-top-color: #f9f50b;
+    background-color: black;
+    color: #dddddd;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+   
+    /* The image will be no bigger than  */
+    img {
+      max-width: 90px;
+      max-height: 90px;
+    }
+}
+
+

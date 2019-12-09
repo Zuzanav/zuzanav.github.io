@@ -1,49 +1,116 @@
+<!--=======================================================================================================-->
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Disturbed Tribute Web Page</title>
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 
-    <body>
-        <h1> Disturbed - A Band Tribute Page </h1>
-    </body>
-<img src="http://www.disturbed1.com//sites/g/files/g2000007801/f/201808/Disturbed-FBOG_0.jpg" 
-        alt="Disturbed Band Photo" width="700">
+    <!-- BOOTSTRAP -------------------------------------------------------------------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" 
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
-    <body>
-        <h2> Bio </h2>
-        <p> Disturbed is an American Heavy Metal Band originally 
-            formed in Chicago in 1994. Originally the band was 
-            named "Brawl" which changed in 1996 after David Draiman 
-            joined.  </p>
+    <!-- CSS FILE --------------------------------------------------------------------->
+    <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
 
-        <p>David Draiman's audition story is quite amusing. After
-            auditioning for 20 other bands in the same month, he auditioned
-            for "Brawl" and became an instant hit with his unique voice,
-            great talent and a desire for creating original content.
-            The other band members tried to hide their enthusiasm but truth was, 
-            they were ecsatic with him. 
-        </p>    
+    <!-- GOOGLE FONTS ----------------------------------------------------------------->
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
-        <a href="https://www.instagram.com/disturbed/" target="_blank">Follow Disturbed on Instagram</a>
+    <!-- FONT AWESOME ----------------------------------------------------------------->
+    <script src="https://kit.fontawesome.com/f53fc5f70f.js"></script>
 
-        <h2> Members</h2>
-        <ul>
-            <li>David Draiman</li>
-            <li>Dan Donegan</li>
-            <li>Mike Wengren </li>
-            <li>John Moyer</li>
-        </ul>
+    <!-- TITLE -->
+    <title>Zuzana's Portfolio</title>
 
-        <h2>Cover of "The Sound of Silence"</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/u9Dg-g7t2l4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</head>
 
-    </body>
+<!--=======================================================================================================-->
+
+<body>
+        
+<!-- NAVIGATION BAR -------------------------------------------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-4">
+      <a class="navbar-brand" id="logo" href="index.html">ZV</a>
+    </div> <!--close column-->
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"> About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact </a>
+        </li>
+      </ul>
+    </div>
+
+  </div> <!--close row -->
+</nav> <!--end of Bootstrap Nav Bar-->
+
+<!-- HEADER JUMBOTRON---------------------------------------------------------------------------------->
+<div class="jumbotron jumbotron-fluid text-center">
+  <h2 class="display-4">Hello! My name is Zuzana. <br> I am a full-stack developer.</h2>
+  <a href="https://github.com/Zuzanav"target="_blank"><i class="fab fa-github"> &nbsp;&nbsp;</i></a>
+  <a href="https://www.linkedin.com/in/zuzanavolny/" target="_blank"><i class="fab fa-linkedin-in">&nbsp;&nbsp;</i></a>
+  <a href="assets/files/ZV_Resume_C.pdf" download target="_blank"><i class="far fa-file"></i></a>
+</div>
+
+
+<!--CONTAINER-->
+<div class="container">
+  
+  <div class="wrapper">
 
 
 
 
+<!--ABOUT ME CONTENT-->
+<!-- Row 1: "About Me" and Divder Line -->
 
+
+<!--Row 2: Profile Image and Bio -->
+  <div  class="row">
+    <div id="about-me-container" class="col-sm-12">
+      <img id="profile-image" src="assets/images/IG_square.jpg" alt="image" style="width:200px;height:200px;"/>
+      <p>
+        I am a full-stack web developer with a strong work ethic and creative background. 
+        I’ve always been creatively inclined with an analytical side which I have 
+        only recently discovered. As a result, I decided to pursue 
+        a Web Development Coding Certification. 
+        <br>
+        After years of working in the creative field while developing my soft skills, 
+        I am excited to add technical skills to my arsenal such as JavaScript, HTML5, 
+        CSS.
+        <br>
+        I am motivated to find an employer who helps contribute to the good of the 
+        world. I love companies with a mission that is greater than ourselves. 
+        If I could use both my creative knowhow and newly found development skills, 
+        I believe that not only could I become an invaluable member to any team, but 
+        I could help contribute to something meaningful. 
+        <br>
+
+      </p>             
+    </div> <!--close of column-->
+  </div> <!--Close of row -->
+</div> <!--close of wrapper-->
+
+<!--Row 3: Footer-->
+  <div class="row2">
+    <div class="col-sm-12">
+      <div id="footerdiv"> </div>
+      <div id="Copyright"> Copyright &#169; </div>
+    </div> <!--close of column-->
+  </div> <!--close of row-->
+</div> <!--close of container-->
+
+
+
+</body>
 </html>
