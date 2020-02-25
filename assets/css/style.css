@@ -1,31 +1,8 @@
-/* THE ENTIRE SITE */
+/* THE ENTIRE SITE ---------------------------------- */
+
 body {
-    background-color: #fbfbfb;
-}
-
-/* NAVIGATION BAR */
-.navbar {
-    background-color:black;
-    border-bottom-style: solid;
-    border-bottom-color: #FF5D5E;
-    border-bottom-width: 5px;
-    padding-top:10px;
-}
-
-.nav-link {
-    font-size: 18px;
-}
-
-.jumbotron {
-    background-color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-bottom: 50px;
-    font-family: 'Lexend Exa', sans-serif;
-    color: black;
-    margin-top: -4%; 
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
+    background-color: mistyrose;
+    margin: 0;
 }
 
 
@@ -33,169 +10,199 @@ h1 {
     font-family: 'Lexend Exa', sans-serif; 
 }
 
-.display-4 {
-    font-size: 45px;
-    line-height: 1.7em;
-    margin-bottom: 30px;
+p, a, h3, ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+h3 {
+    margin: 2%;
+    justify-self: center;
+}
+
+img {
+    max-width: 300px;
+}
+
+#divider {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.global-nav-bar {
+    margin: 25px 0px 25px 5%;
+}
+
+.global-nav-button {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.global-nav-button:hover {
+    color: #FF5D5E;
+}
+
+.wrapper {
+    display: grid;
+    background-color: white;
+    border-top: 1px solid black;
+  }
+
+.main-page-title {
+    display: grid;
+    justify-content: center;
+    font-size: 24px;
+  }
+
+  .page-title {
+    font-family: 'Lexend Exa', sans-serif; 
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+/* ================================================ */
+
+/* MAIN PAGE - INDEX ----------------------------- */
+
+.nav-bar {
+    display: inline-grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 7%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+
+.nav-button {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lexend Exa', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 2px 1px 5px #888888;
+}
+
+.social-links {
+    display: inline-grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0%;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.social-link-btn {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa-github,
 .fa-linkedin-in,
-.fa-file {
+.fa-file,
+.fa-instagram {
     font-size: 30px;
     color: black;
 }
 
 .fa-github:hover,
 .fa-linkedin-in:hover,
-.fa-file:hover {
+.fa-file:hover,
+.fa-instagram:hover {
     color: #FF5D5E;
 }
+/* ================================================ */
 
 
-/* LOGO */
-#logo {
-    background-color:black;
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;
-    color: #ffffff;
-    font-size: 30px;
-    font-family: 'Lexend Exa', sans-serif;
-}
-
-#logo:hover{
-    color: #FF5D5E;
-
-}
-
-    /* NAV LINKS */
-    ul {
-        position: static;
-        list-style-type: none;
-    }
-
-    li {
-        float: right;
-    }
-
-    li a {
-        clear: both;
-        display: block;
-        font-family: 'Source Sans Pro', sans-serif;
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-    } 
-
-    a:hover {
-        color: #f9f50b;
-        text-decoration: none;
-    }
-
-/* ---- ALL CONTENT --- ABOUT ME, IMAGE, BIO PARAGRAPH */
- #about-me-container {
-    margin-bottom: 100px;
- }
-
-        /* "ABOUT ME" */
-
-
-        /* BIO PICTURE */
-        #profile-image {
-            float: left;
-            margin-right: 30px;
-        }
-
-        .img-fluid {
-            max-width: 100%;
-            height: auto;
-        }
-
-        img {
-           
-            max-width: 100%;
-            max-height: 215px;
-            border-style: solid;
-            border-width: 1px;
-            border-color: lightslategray;
-        }
-
-        /* PARAGPRAH CONTENT */
-        p {
-            
-            font-family: 'Source Sans Pro', sans-serif;
-            color: black;
-            line-height: 2.2em;
-            font-size: 16px;
-        }
-
-/* PORTFOLIO PAGE */
-.row {
-    margin-bottom: 20px;
-}
+/* PORTFOLIO PAGE  ------------------------------------ */
 
 #portfolio-wrapper {
-    margin-bottom: 100px;
+    display: inline-grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top: 3%;
 }
 
-h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+.portfolio-card {
+    display: inline-grid;
+    justify-self: center;
+    align-self: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
-#psychic-link,
-#trivia-link,
-#cart-link,
-#crystal-link,
-#liri-link,
-#train-link,
-#bamazon-link,
-#gym {
+.profile-image-container {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    background-color: mistyrose;
+    margin-top: 3%;
+}
+
+#profile-image {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+    width: 400px;
+    margin-top: 3%;
+}
+
+.link-box {
+    justify-self: center;
+}
+
+.port-link {
+    text-decoration: none;
     color: black;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
-    margin-bottom: 12px;
 }
 
-#psychic-link:hover,
-#trivia-link:hover,
-#cart-link:hover,
-#crystal-link:hover,
-#liri-link:hover,
-#train-link:hover,
-#bamazon-link:hover,
-#gym:hover {
+.port-link:hover {
     color: #FF5D5E;
 }
 
-
-
-/* FOOTER */
-
-.row2 {
-    clear: both;
-    border-top-style: solid;
-    border-top-color: #f9f50b;
-    background-color: black;
-    color: #dddddd;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12px;
-    text-align: center;
-    padding-top: 35px;
-    padding-bottom: 5px;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
+#port-divider {
+    color: black;
+    border-top-width: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
 }
 
-@media screen and (max-width: 550px) {
-   
-    /* The image will be no bigger than  */
-    img {
-      max-width: 90px;
-      max-height: 90px;
-    }
+.port-image {
+    border: solid 1px;
+    box-shadow: 2px 1px 5px #888888;
+}
+/* ================================================ */
+
+/* CONTACT PAGE -------------------------------*/
+
+#contact-info-box, #creative-box {
+    margin-left: 10%;
+    margin-bottom: 20%;
 }
 
+/* ABOUT ME PAGE */
 
+#about-me-box {
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-bottom: 20%;
+    font-size: 18px;
+}
+
+#resume-link {
+    color: #FF5D5E;
+}
