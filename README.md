@@ -1,7 +1,7 @@
 # Zuzana's Official Portfolio
 ______________________
 
-[view portfolio here](https://zuzanav.github.io/Portfolio/)
+[view portfolio here](http://www.zuzanavolny.com/)
 
 
 ## Description
